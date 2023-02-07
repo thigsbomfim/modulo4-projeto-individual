@@ -1,8 +1,12 @@
-# modulo4-projeto-individual
+# Projeto Individual Modulo 4 
+# A Resilia está pensando em lançar um novo sistema de acompanhamento e para isso precisa
+de ajuda para modelar um banco de dados que vai armazenar seus cursos, turmas e alunos.
+
 
 <div align="center">
     <img src="https://user-images.githubusercontent.com/113481183/217385465-eabf8919-1d9e-4405-9ad0-8cff89b579c0.png" width="900px">
 </div>
+
 
 ⇨ **Existem outras entidades além dessas três?**
 
