@@ -1,7 +1,7 @@
 # modulo4-projeto-individual
 
 <div align="center">
-    <img src="https://user-images.githubusercontent.com/113481183/217385465-eabf8919-1d9e-4405-9ad0-8cff89b579c0.png" width="900px"> />
+    <img src="https://user-images.githubusercontent.com/113481183/217385465-eabf8919-1d9e-4405-9ad0-8cff89b579c0.png" width="900px">
 </div>
 
 ⇨ **Existem outras entidades além dessas três?**
