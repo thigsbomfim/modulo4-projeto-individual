@@ -69,6 +69,15 @@ CREATE TABLE class_instructors (
     FOREIGN KEY (tutor_id) REFERENCES instructors (tutor_id)
 );
 
+CREATE TABLE instructors_subjects (
+	tutor_sub INT PRIMARY KEY AUTO_INCREMENT,
+    tutor_id INT NOT NULL,
+    sub_id INT NOT NULL,
+    FOREIGN KEY (tutor_id) REFERENCES instructors (tutor_id),
+    FOREIGN KEY (sub_id) REFERENCES subjects (sub_id)
+);
+
+
 
 -- adicionando registros
 INSERT INTO institutions (
@@ -169,6 +178,16 @@ INSERT INTO instructors (
     '2'
 );
 
+INSERT INTO instructors_subjects (
+	tutor_id,
+    sub_id
+) VALUES (
+	'1',
+    '1'
+), (
+	'2',
+    '2'
+);
 
 INSERT INTO class_instructors (
 	class_id,
